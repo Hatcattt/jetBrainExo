@@ -2,8 +2,6 @@ package dev.hatcattt.jtbrn.swing;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /**
  * Basic swing windows.
@@ -61,7 +59,7 @@ public class HelloFrame extends JFrame {
         acceptButton.setBounds(100, 70, 100, 30);
         add(acceptButton);
 
-        // add text to the text label when wy push the accept button
+        // add text to the text label when we push button
         acceptButton.addActionListener(e -> {
             String helloText = "Hello";
             String name = nameTextField.getText();
@@ -69,7 +67,7 @@ public class HelloFrame extends JFrame {
                 helloText += String.format(", %s", name);
             }
             helloLabel.setText(helloText);
-            System.out.println("The button is clicked!");
+            PrintLog.print("The accept button is clicked!");
         });
     }
 
