@@ -3,28 +3,28 @@ package dev.hatcattt.jtbrn.swing.layoutmanager;
 import javax.swing.*;
 import java.awt.*;
 
-public class FlowLayoutExample extends JFrame {
+public class GridLayoutExample extends JFrame {
 
-    public FlowLayoutExample() {
-        setTitle("FlowLayoutExample");
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+    public GridLayoutExample() {
+        super("Grid Layout Example");
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(300, 300);
         setLocationRelativeTo(null);
 
         add(new JButton("First"));
-        add(new JButton("Second"));
+        add(new JButton("Second Button"));
         add(new JTextField("Enter your text here"));
         add(new JLabel("This is a long label"));
         add(new JButton("Third"));
+        add(new JLabel("This is another label"));
 
-                               // all on the left, gap hori, gap verti
-        setLayout(new FlowLayout(FlowLayout.LEFT, 5, 10));
+                                 // rows, cols,  hori gap, verti gap
+        setLayout(new GridLayout(3, 2, 5, 5));
         setVisible(true);
     }
 
-    public static void main(String[] args) {
-        new FlowLayoutExample();
+    public static void main(final String[] args) {
+        new GridLayoutExample();
     }
 }
