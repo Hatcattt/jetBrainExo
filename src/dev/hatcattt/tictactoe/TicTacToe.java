@@ -1,7 +1,11 @@
 package dev.hatcattt.tictactoe;
 
+import dev.hatcattt.jtbrn.swing.PrintLog;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +32,7 @@ class BoxButton extends JButton {
     public BoxButton(String shortName) {
         if (shortName != null) {
             this.shortName = shortName;
-            fullName += this.shortName;
+            fullName = "Button" + this.shortName;
             setBoxFont(new Font(Font.SANS_SERIF, Font.BOLD, 80));
         }
     }

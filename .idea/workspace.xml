@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b9ed9-cdb9-4934-909a-f5e6b8bb55a9" name="Changes" comment="add more exercise">
-      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/exos/CliBasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/swing/layoutmanager/BorderLayoutExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/swing/layoutmanager/BoxLayoutExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/swing/layoutmanager/GridLayoutExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/tictactoe/GameRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/tictactoe/TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/tictactoe/consigne.txt" afterDir="false" />
+    <list default="true" id="034b9ed9-cdb9-4934-909a-f5e6b8bb55a9" name="Changes" comment="add the beginning of the Tic Tac Toe game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/swing/layoutmanager/FlowLayoutExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/swing/layoutmanager/FlowLayoutExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/hatcattt/tictactoe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/hatcattt/tictactoe/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668503341585</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add more exercise and some Layout example">
+      <created>1669025140753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669025140753</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add the beginning of the Tic Tac Toe game">
+      <created>1669025180073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669025180073</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add more exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more exercise" />
+    <MESSAGE value="add more exercise and some Layout example" />
+    <MESSAGE value="add the beginning of the Tic Tac Toe game" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the beginning of the Tic Tac Toe game" />
   </component>
 </project>
