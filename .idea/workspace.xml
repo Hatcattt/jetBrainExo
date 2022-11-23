@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034b9ed9-cdb9-4934-909a-f5e6b8bb55a9" name="Changes" comment="add the beginning of the Tic Tac Toe game">
+    <list default="true" id="034b9ed9-cdb9-4934-909a-f5e6b8bb55a9" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/exos/BrokenInvariants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/exos/ChargeLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/exos/EnumBalanceManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/exos/EnumHidden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/exos/LogFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/hatcattt/jtbrn/exos/LoggerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/hatcattt/tictactoe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/hatcattt/tictactoe/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +46,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GameRun">
-    <configuration name="BorderLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.hatcattt.jtbrn.swing.layoutmanager.BorderLayoutExample" />
+  <component name="RunManager" selected="Application.LoggerExample">
+    <configuration name="BrokenInvariants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.hatcattt.jtbrn.exos.BrokenInvariants" />
       <module name="jetBrainExo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.hatcattt.jtbrn.swing.layoutmanager.*" />
+          <option name="PATTERN" value="dev.hatcattt.jtbrn.exos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.hatcattt.jtbrn.swing.layoutmanager.BoxLayoutExample" />
+    <configuration name="EnumHidden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.hatcattt.jtbrn.exos.EnumHidden" />
       <module name="jetBrainExo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.hatcattt.jtbrn.swing.layoutmanager.*" />
+          <option name="PATTERN" value="dev.hatcattt.jtbrn.exos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridLayoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.hatcattt.jtbrn.swing.layoutmanager.GridLayoutExample" />
+    <configuration name="LoggerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.hatcattt.jtbrn.exos.LoggerExample" />
       <module name="jetBrainExo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.hatcattt.jtbrn.swing.layoutmanager.*" />
+          <option name="PATTERN" value="dev.hatcattt.jtbrn.exos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.hatcattt.tictactoe.TicTacToe" />
+    <configuration name="TestEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.hatcattt.jtbrn.exos.TestEnum" />
       <module name="jetBrainExo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.hatcattt.tictactoe.InteractWithBoard" />
+          <option name="PATTERN" value="dev.hatcattt.jtbrn.exos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +113,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BorderLayoutExample" />
-      <item itemvalue="Application.BoxLayoutExample" />
+      <item itemvalue="Application.LoggerExample" />
+      <item itemvalue="Application.BrokenInvariants" />
+      <item itemvalue="Application.TestEnum" />
+      <item itemvalue="Application.EnumHidden" />
       <item itemvalue="Application.GameRun" />
-      <item itemvalue="Application.GridLayoutExample" />
-      <item itemvalue="Application.TicTacToe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoggerExample" />
+        <item itemvalue="Application.BrokenInvariants" />
+        <item itemvalue="Application.TestEnum" />
+        <item itemvalue="Application.EnumHidden" />
         <item itemvalue="Application.GameRun" />
-        <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.BoxLayoutExample" />
-        <item itemvalue="Application.BorderLayoutExample" />
-        <item itemvalue="Application.GridLayoutExample" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669025180073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1669026276703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669026276703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +184,7 @@
     <MESSAGE value="add more exercise" />
     <MESSAGE value="add more exercise and some Layout example" />
     <MESSAGE value="add the beginning of the Tic Tac Toe game" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the beginning of the Tic Tac Toe game" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

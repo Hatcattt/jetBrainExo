@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-11-22T12:43:41.906210700Z</date>
+  <millis>1669121021906</millis>
+  <nanos>210700</nanos>
+  <sequence>4</sequence>
+  <logger>dev.hatcattt.jtbrn.exos.LoggerExample</logger>
+  <level>INFO</level>
+  <class>dev.hatcattt.jtbrn.exos.LoggerExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Info log message</message>
+</record>
+<record>
+  <date>2022-11-22T12:43:41.906305400Z</date>
+  <millis>1669121021906</millis>
+  <nanos>305400</nanos>
+  <sequence>6</sequence>
+  <logger>dev.hatcattt.jtbrn.exos.LoggerExample</logger>
+  <level>INFO</level>
+  <class>dev.hatcattt.jtbrn.exos.LoggerExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Info Loddg</message>
+</record>
+</log>
