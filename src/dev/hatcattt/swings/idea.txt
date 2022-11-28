@@ -1,0 +1,25 @@
+
+-- Swing application example
+
+# EASY -------------------------------------------------------------------
+# Calcul du poids de forme :
+
+On renseigne son poids, sa taille et ça nous donne notre poids de forme.
+
+# Convertisseur de devises :
+
+Convertit des devises par ex: euro en dollar.
+Possibililté d'ajouter une devise si on le souhaite.
+
+# MEDIUM -----------------------------------------------------------------
+# Terminer le TicTacToe
+bonus -> jouer en réseau
+
+# Petit bloc note
+Réaliser un bloc note qui permet d'écrire dans des fichiers, de les sauvegarder et les éditer.
+
+# CRUD sur une base de donnée
+Manipuler une base de donnée pour pouvoir faire un CRUD sur celle-ci.
+
+# HARD -------------------------------------------------------------------
+Faire un batail naval en réseau

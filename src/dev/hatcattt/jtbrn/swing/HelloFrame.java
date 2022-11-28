@@ -67,7 +67,6 @@ public class HelloFrame extends JFrame {
                 helloText += String.format(", %s", name);
             }
             helloLabel.setText(helloText);
-            PrintLog.print("The accept button is clicked!");
         });
     }
 
