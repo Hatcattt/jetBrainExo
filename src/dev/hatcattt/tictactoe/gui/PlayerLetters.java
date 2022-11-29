@@ -10,12 +10,8 @@ public class PlayerLetters {
     /**
      * "Swap" the index. If 1 then 0. If 0 than 1.
      */
-    private static void changeLetterIndex() {
-        if (index == 1) {
-            index = 0;
-        } else if (index == 0) {
-            index = 1;
-        }
+    private static void changeIndexLetter() {
+        index = index == 1 ? 0 : 1;
     }
 
     /**
@@ -23,7 +19,7 @@ public class PlayerLetters {
      * @return a letter (X than 0 after the second call)
      */
     public static String getLetter() {
-        changeLetterIndex();
+        changeIndexLetter();
         return LETTERS[index];
     }
 }

@@ -6,8 +6,10 @@ enum Status {
 
     ACTIVE("The game is active"),
     NO_ACTIVE("The game is not lunch yet."),
+
     X_WIN("X win the game!"),
-    O_WIN("O win the game!");
+    O_WIN("O win the game!"),
+    NO_WINNER("There are no winner for this game!");
 
     private final String textStatus;
 
