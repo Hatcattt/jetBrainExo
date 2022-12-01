@@ -11,11 +11,7 @@ public class PlayerLetters {
      * "Swap" the index. If 1 then 0. If 0 than 1.
      */
     private static void changeLetterIndex() {
-        if (index == 1) {
-            index = 0;
-        } else if (index == 0) {
-            index = 1;
-        }
+        index = index == 1 ? 0 : 1;
     }
 
     /**
