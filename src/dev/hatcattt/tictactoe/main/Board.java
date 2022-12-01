@@ -7,12 +7,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Represent the main board game panel.
  * This class extend the JPanel component and have a GridLayout of 3*3 size.
  */
 public class Board extends JPanel {
+    private final static Logger LOGGER = Logger.getLogger(Board.class.getName());
     private final static int SIZE = 3;
     // further, maybe a new Board class who can have multiple size like a BoardExtended class
     private final static List<BoxButton> boxButtonsList = new ArrayList<>();
@@ -31,12 +34,19 @@ public class Board extends JPanel {
     public Board() {
         setLayout(new GridLayout(SIZE, SIZE));
         boxButtonsList.forEach(this::add);
-        boxButtonsList.forEach(B -> B.addActionListener(event -> boxButtonListener(B)));
+        boxButtonsList.forEach(B -> B.addActionListener(event -> setPlayerLetterToAButton(B)));
     }
 
-    private void boxButtonListener(JButton button) {
+    /**
+     * Set the player letter if the text on the button is empty.
+     * @param button the button to change text
+     */
+    private void setPlayerLetterToAButton(JButton button) {
         if (button.getText().isEmpty()) {
-            button.setText(PlayerLetters.getLetter());
+            var playerLetter = PlayerLetters.getLetter();
+
+            button.setText(playerLetter);
+            LOGGER.log(Level.INFO, "The letter : '" + playerLetter + "' have been set to this button.");
         }
     }
 
